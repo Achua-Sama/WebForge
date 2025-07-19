@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC Global Summit 2015</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header class="navbar-container">
+        <div class="top-bar">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <nav class="utility-nav">
+                <ul>
+                    <li><a href="#">Layout</a></li>
+                    <li><a href="#">Manage</a></li>
+                    <li><a href="#">Korean</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-navbar">
+            <div class="logo">
+                <img src="placeholder_logo.png" alt="CC Global Summit 2015 Logo"> <span>CC Global Summit 2015</span>
+            </div>
+            <nav class="main-nav-links">
+                <button class="hamburger-menu" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu"> <li><a href="#">About</a></li>
+                    <li><a href="#">Program</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Sponsor</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#" class="btn-cc-campaign">CC Campaign</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main style="height: 1000px; background-color: #f0f0f0; padding-top: 50px; text-align: center;">
+        <h1>Welcome to CC Global Summit 2015</h1>
+        <p>This is the main content area.</p>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger-menu');
+            const navMenu = document.querySelector('.nav-menu'); // IMPORTANT: Targets the new class 'nav-menu'
+
+            if (hamburger && navMenu) {
+                hamburger.addEventListener('click', function() {
+                    navMenu.classList.toggle('active'); // IMPORTANT: Toggles 'active' on navMenu
+                });
+            }
+        });
+    </script>
+</body>
+</html>
