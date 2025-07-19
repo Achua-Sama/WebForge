@@ -239,3 +239,50 @@ a {
         font-size: 1.1em; 
     }
 }
+.main-title {
+    text-align: center;
+    font-size: 3.5rem;
+    color: orangered;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+.text-box {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+ font-family: 'Arial', sans-serif;
+ font-size: 1rem;
+color: #666;
+line-height: 1.6;
+ margin-bottom: 15px;
+ text-align: center;
+ box-sizing: border-box;
+ border: 1px solid #eee;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ min-width: 100%;
+
+}
+.email p{
+    text-align: center;
+     font-family: 'Arial', sans-serif;
+     font-size: 1rem;
+     color: #333;
+        line-height: 1.6;
+}
+.email-address{
+    color: #e62b00;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.email-address:hover {
+    color: #b30000; 
+}
+
