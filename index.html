@@ -7,7 +7,7 @@
     <title>CC Global Summit 2015</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
 
 </head>
@@ -27,16 +27,16 @@
             </nav>
         </div>
         <div class="main-navbar">
-            <div class="logo">
-                <img src="placeholder_logo.png" alt="CC Global Summit 2015 Logo"> <span>CC Global Summit 2015</span>
+         <div class="logo">
+          <img src="images/logo.jpg" alt=""> 
             </div>
             <nav class="main-nav-links">
                 <button class="hamburger-menu" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
-                <ul class="nav-menu"> <li><a href="#">About</a></li>
-                    <li><a href="#">Program</a></li>
-                    <li><a href="#">Join</a></li>
+                <ul class="nav-menu"> <li><a href="#about.html">About</a></li>
+                    <li><a href="#program.html">Program</a></li>
+                    <li><a href="# join.html">Join</a></li>
                     <li><a href="#">Sponsor</a></li>
                     <li><a href="#">News</a></li>
                     <li><a href="#" class="btn-cc-campaign">CC Campaign</a></li>
@@ -45,16 +45,20 @@
         </div>
     </header>
         <main>
-        <section class="hero-section">
-            <h1 class="main-title">CREATIVE COMMONS <br> GLOBAL SUMMIT 2015</h1>
-        </section>
-                 
-            <div class="text-box">
-                <p>The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons <br>affiliate network to a different country every two years.</p>
-                <p>This year, we hope to expand our invitation list including organizations and individuals who want to work with us on shared<br>projects that advance the cause of the Commons, free culture and open knowledge.</p><br>
-                <p>So if you're active and engaged in the worlds of open content and knowledge - free software advocates, Wikipedians, Open<br> Knowledge, galleries, libraries, museums, archives, governments and foundations, lawyers and activists - we hope you'll<br> consider joining us this year to build a stronger, more vibrant commons together.</p>
-            </div>
-            </main>
+ <div class="header">
+ <h1 class="title">Creative Commons <br> Global Submit 2015</h1>
+<div class="content-section">
+<div class="text-box">
+        <p>The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons <br>
+         affiliate network to a different country every two years.</p>
+        <p>This year, we hope to expand our invitation list including organizations and individuals who want to work with us on shared <br>
+         projects that advance the cause of the Commons, free culture and open knowledge.<br></p>
+        <p>So if you're active and engaged in the worlds of open content and knowledge - free software advocates, Wikipedians, Open<br>
+         Knowledge, galleries, libraries, museums, archives, governments and foundations, lawyers and activists - we hope you'll<br>
+         consider joining us this year to build a stronger, more vibrant commons together.</p>
+    </div>
+    </div>
+</main>
 
         <div class="email">
             <p>Please contact us per Email for any further questions about CC Global Summit 2015!</p>
@@ -68,17 +72,6 @@
     </div>
 
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const hamburger = document.querySelector('.hamburger-menu');
-            const navMenu = document.querySelector('.nav-menu'); // IMPORTANT: Targets the new class 'nav-menu'
-
-            if (hamburger && navMenu) {
-                hamburger.addEventListener('click', function() {
-                    navMenu.classList.toggle('active'); // IMPORTANT: Toggles 'active' on navMenu
-                });
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

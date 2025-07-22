@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
+    line-height: 1.6;
 }
 
 ul {
@@ -80,11 +81,16 @@ a {
 }
 
 .logo img {
-    height: 30px; /* Adjust logo height */
-    margin-right: 10px;
+    height: 50px; /* Adjust logo height */
     vertical-align: middle;
 }
-
+.logo img[src="logo.jpg"] {
+   
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%; 
+}
 .main-nav-links ul {
     display: flex;
 }
@@ -120,13 +126,6 @@ a {
 }
 
 /* Optional: Placeholder for logo */
-.logo img[src="placeholder_logo.png"] {
-   
-    width: 30px;
-    height: 30px;
-    background-color: #ccc;
-    border-radius: 50%; 
-}
 
 /* Hamburger menu button - initially hidden */
 .hamburger-menu {
@@ -169,10 +168,6 @@ a {
         align-items: flex-start; 
         padding-bottom: 10px; 
         position: relative; 
-    }
-
-    .logo {
-        margin-bottom: 15px; /* Space below the logo */
     }
 
     /* Show hamburger menu */
@@ -234,46 +229,85 @@ a {
         right: 15px;
         top: 15px;
     }
-
-    .logo span {
-        font-size: 1.1em; 
+}
+.header h1 {
+margin-top: 10%;
+position: relative;
+z-index: 1;
+text-align: center;
+font-family: 'oswal',sans-serif;
+font-size: 4em;
+ color: #f01717;
+ line-height: 1.1;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ font-style: bold;
+ font-weight: bolder;
+}
+@media (max-width:768px) {
+    .header h1{
+        font-size: 2.2em;
     }
 }
-.main-title {
-    text-align: center;
-    font-size: 3.5rem;
-    color: orangered;
-    font-weight: 900;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    line-height: 1.1;
-    margin-bottom: 30px;
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.8em;
+    }
 }
-.text-box {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
- font-family: 'Arial', sans-serif;
- font-size: 1rem;
-color: #666;
-line-height: 1.6;
- margin-bottom: 15px;
- text-align: center;
- box-sizing: border-box;
- border: 1px solid #eee;
- box-shadow: 0 2px 5px rgba(0,0,0,0.1);
- min-width: 100%;
+.text-box p{
+    justify-content: center;
+}
+.content-section {
+    position: relative;
+    z-index: 1; 
+    background-color: transparent; 
+    margin-bottom: 30px; 
+    display: flex; 
+    justify-content: center; 
+}
 
+.text-box {
+    background-color: #fdfdfd; 
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    line-height: 1.6;
+    color: #333;
+    font-size: 0.95em; 
+    padding: 25px 35px; 
+    max-width: 1000px; 
+    width: 150%; 
+    box-sizing: border-box; 
 }
+
+.text-box p {
+    margin-bottom: 1em;
+}
+.container {
+    padding: 40px 20px; 
+}
+
+@media (max-width: 768px) {
+    .text-box {
+        padding: 20px 25px;
+        max-width: 90%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .text-box {
+        font-size: 0.9em;
+        padding: 15px 20px;
+    }
+}
+
+
 .email p{
     text-align: center;
      font-family: 'Arial', sans-serif;
      font-size: 1rem;
      color: #333;
-        line-height: 1.6;
+     line-height: 1.6;
 }
 .email-address{
     color: #e62b00;
@@ -281,8 +315,8 @@ line-height: 1.6;
     text-decoration: none;
     font-weight: bold;
     font-size: 0.9rem;
+    text-decoration: underline;
 }
 .email-address:hover {
     color: #b30000; 
 }
-
