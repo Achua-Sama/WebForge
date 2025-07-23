@@ -71,8 +71,7 @@ a {
     max-width: 1200px; 
     margin: 0 auto; 
 }
-
-.logo {
+ img { 
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -253,9 +252,6 @@ font-size: 4em;
     .header h1 {
         font-size: 1.8em;
     }
-}
-.text-box p{
-    justify-content: center;
 }
 .content-section {
     position: relative;
