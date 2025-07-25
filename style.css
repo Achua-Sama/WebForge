@@ -22,7 +22,9 @@ a {
     width: 100%;
     background-color: #fff; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
-    align-items: sticky top;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 /* Top Bar Styling */
@@ -71,7 +73,6 @@ a {
     padding: 15px 20px;
     max-width: 1200px; 
     margin: 0 auto; 
-    justify-content: sticky top;
 }
  img { 
     display: flex;
@@ -100,7 +101,7 @@ a {
 }
 
 .main-nav-links a:hover {
-    color: #007bff; /* Example hover color */
+    color: #007bff; 
 }
 
 /* CC Campaign Button Styling */
@@ -145,7 +146,7 @@ a {
 
     .utility-nav li {
         margin-left: 0;
-        margin-bottom: 5px; /* Space between stacked utility links */
+        margin-bottom: 5px; 
     }
 
     .main-navbar {
@@ -155,13 +156,12 @@ a {
         position: relative; 
     }
 
-    /* Show hamburger menu */
+   
     .hamburger-menu {
         display: block; 
         position: absolute; 
         right: 20px; 
         top: 20px; 
-        z-index: 11; 
     }
 
     .main-nav-links .nav-menu { 
@@ -329,9 +329,10 @@ font-size: 4em;
     border: 1px solid #e0e0e0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     margin-top: 20px;
-    display: flex;
     align-items: center;
-
+    margin-left: 500px;
+    padding: 10px;
+    padding-right: 70px; 
 }
 /*@media (max-width: 768px) {
     .logo-text {
@@ -401,7 +402,7 @@ font-size: 4em;
 
 .cc-summit-card {
     width: 380px; 
-    height: 250px;
+    height: 240px;
     background-size: cover;
     background-position: center;
     color: white;
@@ -421,7 +422,7 @@ font-size: 4em;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(44, 70, 146, 0.75);
+    background-color: rgba(146, 44, 44, 0.75);
     z-index: 1;
 }
 
@@ -430,7 +431,7 @@ font-size: 4em;
 }
 
 .summit-2011 {
-    background-image: url('images/img2.PNG'); 
+    background-image: url('images/img8.PNG'); 
 }
 
 .cc-summit-content {

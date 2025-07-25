@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC Global Summit 2015</title>
+    <link rel="stylesheet" href="join style .css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar-container">
+        <div class="top-bar">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <nav class="utility-nav">
+                <ul>
+                    <li><a href="#">Layout</a></li>
+                    <li><a href="#">Manage</a></li>
+                    <li><a href="#">Korean</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-navbar">
+         <div class="logo-img">
+          <img src="images/logo.jpg" alt=""> 
+            </div>
+            <nav class="main-nav-links">
+                <button class="hamburger-menu" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu"> <li><a href="index.html">About</a></li>
+                    <li><a href="program.html">Program</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Sponsor</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#" class="btn-cc-campaign">CC Campaign</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="title-section">
+    <h1 class="header">Hello join our community today<br> by registring on our platform</h1>    
+    </section>
+    <section class="form">
+    <div class="registration-container">
+        <h2>Register Here</h2>
+        <form action="https://formspree.io/f/xldlrlbw"method="POST">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="e.g., yourname@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Min. 8 characters" required minlength="8">
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter your password" required minlength="8">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="">Select your gender (Optional)</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></label>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Register Account</button>
+            </div>
+        </form>
+    </div>
+    </section>
+        <footer>
+        <div class="footer-content">
+            <img src="images/logo8.PNG" alt="Creative Commons Korea Logo" class="footer-logo">
+            <p class="copyright">
+                @2015 Creative Commons Korea. Some Rights Reserved.<br>
+                Creative Commons is a not-for-profit organization that promotes creative work and knowledge sharing.<br>
+                It is a global movement that helps people share their knowledge and creativity.
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
