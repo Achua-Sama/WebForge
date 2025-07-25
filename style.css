@@ -1,4 +1,4 @@
-/* Basic Reset & Body Styles */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -17,7 +17,6 @@ a {
     color: inherit;
 }
 
-/* Navbar Container */
 .navbar-container {
     width: 100%;
     background-color: #fff; 
@@ -27,7 +26,6 @@ a {
     z-index: 1000;
 }
 
-/* Top Bar Styling */
 .top-bar {
     background-color: #333;
     color: #fff;
@@ -113,7 +111,6 @@ a {
     border: 3px solid #e74c3c; 
 }
 
-/* Hamburger menu button - initially hidden */
 .hamburger-menu {
     display: none; 
     background: none;
@@ -125,7 +122,7 @@ a {
     outline: none;
 }
 
-/* --- Responsive Design --- */
+
 
 
 @media (max-width: 768px) {
@@ -136,7 +133,7 @@ a {
     }
 
     .social-links {
-        margin-bottom: 10px; /* Add some space below social links */
+        margin-bottom: 10px;
     }
 
     .utility-nav ul {
