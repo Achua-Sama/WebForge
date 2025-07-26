@@ -77,9 +77,6 @@ a {
     height: auto;
     display: block;
     max-width: 130px;
-    position: relative;
-    z-index: 10;
-    margin-left: 50px;
 }
 
 
@@ -268,15 +265,15 @@ font-size: 4em;
 
 @media (max-width: 768px) {
     .text-box {
-        padding: 20px 25px;
-        max-width: 90%; 
+        padding: 25px 30px;
+        max-width: 100%; 
     }
 }
 
 @media (max-width: 480px) {
     .text-box {
         font-size: 0.9em;
-        padding: 15px 20px;
+        padding: 20px 30px;
     }
 }
 
@@ -320,42 +317,14 @@ font-size: 4em;
  font-size: 0.95rem;
  margin-bottom: 0.15rem;
 }
-.img-tag {
+.img-tag  {
     margin-bottom: 0.35rem;
-    max-width: 160px;
+    max-width: 100px;
     border: 1px solid #e0e0e0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     margin-top: 20px;
-    align-items: center;
     margin-left: 500px;
-    padding: 10px;
-    padding-right: 70px; 
-}
-/*@media (max-width: 768px) {
-    .logo-text {
-        padding: 20px 25px;
-        max-width: 90%;
-        max-width: 1200px;
-        margin: 0 auto;  
-    }
-}
-@media (max-width: 480px) {
-    .logo-text {
-        font-size: 0.9em;
-        padding: 15px 20px;
-        align-items: center;
-        display: flex;
-        min-height: 150px;
-        max-height: 500px;
-        overflow: auto;
-    }
-}
-@media (max-width: 480px) {
-  .text h4 {
-    text-align: center;
-    font-size: 2.2em;
-    line-height: 1.2;
-  }  
+    padding-right: 30px;
 }
 /* Styling for the overall section containing the summit cards */
 .summits-section {
